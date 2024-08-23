@@ -1,0 +1,19 @@
+{
+  "name": "simple-words-service",
+  "version": "0.0.0",
+  "description": "SimpleWord API is a microservice that provides simple, easy-to-understand definitions of words in multiple languages. It utilizes OpenAI's GPT-3 for generating definitions and Redis for caching results, ensuring quick and efficient responses.",
+  "main": "index.js",
+  "author": "LexxXell",
+  "license": "MIT",
+  "scripts": {
+    "test": "nodemon src/test.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.4",
+    "openai": "^4.56.0",
+    "redis": "^4.7.0"
+  }
+}
